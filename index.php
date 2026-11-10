@@ -1,3 +1,4 @@
+// Iniciamos la pagina en html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,7 @@
                 <br>
                         <br>
                                 <br>
+        //titulo y portada
         <h1>PHP - CONSTRUYE APP WEB</h1>
         <br>
         <br>
@@ -30,7 +32,7 @@
 </html>
 
 <?php
-
+//ponemos una referencia para saltar a la pagina de saludos
 echo "<a href='saludos.php'>Saludos</a>";
 
 ?>
