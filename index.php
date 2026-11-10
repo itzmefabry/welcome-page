@@ -24,5 +24,13 @@
             <h3><strong>BIENVENIDO</strong></h3>
         </div>
         
-    </header></body>
+    </header>
+</body>
+
 </html>
+
+<?php
+
+echo "<a href='saludos.php'>Saludos</a>";
+
+?>
