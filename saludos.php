@@ -1,3 +1,4 @@
+//iniciamos en html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,6 +9,7 @@
 </head>
 <body>
 <h2>SALUDOS</h2>    
+//ponemos 5 botones en un form post para poderlos usar en php
 <form action="" method="POST">
     <button type="submit" name="Espanol">Español</button>
     <button type="submit" name="Ingles">Inglés</button>
@@ -16,7 +18,7 @@
     <button type="submit" name="Japones">Japonés</button>
 </form>
         <br>
-
+//ponemos un retorno al index
         <a href="index.php">Volver</a>
 
 
@@ -24,7 +26,10 @@
 </html>
 
 
+
 <?php
+// hacemos los if.. si se presiona un boton devuelve un eco 
+// con el texto en ese idioma
 if (isset($_POST['Espanol'])) {
     echo "<h3>¡Saludos Colega!</h3>";
 } elseif (isset($_POST['Ingles'])) {
